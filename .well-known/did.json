@@ -9,7 +9,7 @@
         "id": "did:web:vivek-bodar.github.io:holder#key-1",
         "type": "Ed25519VerificationKey2018",
         "controller": "did:web:vivek-bodar.github.io:holder",
-        "publicKeyBase58": "8DLwiXmmmk7bMb2nySKgJnXViofoReSx3ke9ucSbgKyF"
+        "publicKeyBase58": "2yXeam5Q9bQwBJGbGHRmymF4eTBgJdw1Mu7ddLJ6X3Rq"
       }
     ],
     "authentication": [
@@ -21,7 +21,7 @@
     "service": [
       {
         "id": "did:web:vivek-bodar.github.io:holder#did-communication",
-        "type": "did-communication",
+        "type": "DIDCommMessaging",
         "serviceEndpoint": "http://192.168.1.7:9001",
         "recipientKeys": "did:web:vivek-bodar.github.io:holder#key-1",
         "routingKeys": "did:web:vivek-bodar.github.io:holder#key-1",
